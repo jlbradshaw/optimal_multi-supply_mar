@@ -351,8 +351,7 @@ parfor i = 1:numCapacityPoints(2)
     problemCaps{i} = probCaps{1};
     
 end
-    save(filename)    
-    plotScript_paper2(xstar_DCTLAGtoHansen, minULCC_DCTLAGtoHansen_array, ET_mgd_solutions_DCTLAGtoHansen, rw_indices, sw_indices, storage_indices, infiltration_indices, number_timesteps, rw_capacityVector_mgd, 2)
+    save(filename)       
 
     
     elseif strcmp('LAG-DCT_parallel', scenario)    
